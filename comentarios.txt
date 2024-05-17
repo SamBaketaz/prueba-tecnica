@@ -1,0 +1,46 @@
+1.- Carga de datos
+
+Usé PostgreSQL para este proyecto debido a su potente conjunto de características, 
+rendimiento confiable y sólida estabilidad. 
+Además, su comunidad activa y licencia de código abierto ofrecen un sólido respaldo y flexibilidad 
+para mis necesidades de desarrollo.
+
+2.- Extracción de datos
+
+Elegí usar Python debido a su versatilidad y amplio soporte para manipulación de datos, 
+incluida la lectura de archivos CSV. 
+Python tiene una gran cantidad de bibliotecas como csv que 
+facilitan la manipulación y extracción de datos de archivos CSV de manera eficiente. 
+El formato CSV es comúnmente utilizado para almacenar datos tabulares y es fácil de leer y escribir.
+
+Durante la extracción de datos del archivo CSV, 
+uno de los desafíos que encontré fue asegurarme de manejar correctamente 
+los tipos de datos y manejar posibles errores en el formato del archivo CSV. 
+Además, tuve que garantizar que los datos se insertaran correctamente en la base de datos, 
+asegurándome de cumplir con las restricciones y relaciones definidas en el esquema de la base de datos.
+
+3.- Transformación de datos
+
+Al trabajar con el archivo CSV, tuve que realizar varias transformaciones 
+para adaptar los datos al formato requerido por la base de datos. 
+Uno de los retos que enfrenté fue manejar los diferentes tipos de datos en el CSV, 
+como fechas y valores numéricos, asegurándome de convertirlos al tipo adecuado para su almacenamiento en la base de datos.
+Además, tuve que lidiar con posibles inconsistencias en los datos, como valores faltantes o formatos incorrectos, 
+y desarrollar mecanismos para manejar estas situaciones de manera adecuada sin comprometer la integridad de los datos.
+
+Otro desafío fue garantizar la coherencia entre los datos del CSV y el esquema de la base de datos, 
+asegurándome de que los nombres de las columnas y los tipos de datos coincidieran correctamente. 
+Esto implicó ajustar el proceso de carga de datos para garantizar que los datos se insertaran correctamente 
+en la base de datos sin errores.
+
+4.- Dispersión de la información
+
+El diagrama se encuentra en 'contenido_extra/diagrama.png'
+
+5.- SQL 
+
+La vista se encuentra en 'contenido_extra/vista.sql'
+
+6.- SECCION 2
+
+La API se encuentra en la carpeta APP
